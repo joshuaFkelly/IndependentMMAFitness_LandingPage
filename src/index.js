@@ -1,11 +1,11 @@
 import reactDom from "react-dom";
-
+import { Heading } from "./Components/Header/Heading";
 
 const App = () => {
 
     return (
         <div>
-            <h1>Hello world</h1>
+            <Heading />
         </div>
     )
 };
