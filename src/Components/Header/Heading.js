@@ -1,4 +1,3 @@
-import { CallToAction } from "./CallToAction";
 import { Logo } from "./Logo";
 import { Title } from "./Title";
 export const Heading = () => {

@@ -4,7 +4,11 @@ module.exports = {
         fontFamily: {
             'sans': ['Helvetica', 'Arial', 'sans-serif'],
         },
-        extend: {},
+        extend: {
+            backgroundImage: {
+                'ufc-gloves': "url('../../Images/gloveTouch.jpg')",
+            }
+        },
     },
     plugins: [],
 }
