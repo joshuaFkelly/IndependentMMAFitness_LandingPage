@@ -1,13 +1,17 @@
 import reactDom from "react-dom";
-import { Heading } from "./Components/Header/Heading";
 import { HeroSection } from "./Components/HeroSection/HeroSection";
+import { MainContent } from "./Components/ContentSection/MainContent";
+import { ContactForm } from "./Components/ContactForm/ContactForm";
+import { Footer } from "./Components/Footer/Footer";
 
 const App = () => {
 
     return (
         <div>
-            <Heading />
             <HeroSection />
+            <MainContent />
+            <ContactForm />
+            <Footer />
         </div>
     )
 };

@@ -5,9 +5,11 @@ module.exports = {
             'sans': ['Helvetica', 'Arial', 'sans-serif'],
         },
         extend: {
-            backgroundImage: {
-                'ufc-gloves': "url('../../Images/gloveTouch.jpg')",
-            }
+            backgroundImage: (theme) => ({
+                'ufc-gloves': "url('/src/Images/gloveTouch.jpg')",
+                'logo': "url('/src/Images/IndependentLogo.png')",
+                'mma-gloves': "url('/src/Images/mma-gloves.jpeg')",
+            })
         },
     },
     plugins: [],

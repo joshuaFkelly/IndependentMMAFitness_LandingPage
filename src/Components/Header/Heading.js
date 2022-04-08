@@ -2,7 +2,7 @@ import { Logo } from "./Logo";
 import { Title } from "./Title";
 export const Heading = () => {
     return (
-        <header className="flex bg-black text-white p-1">
+        <header className="flex text-white">
 
             <div className="flex-none" >
                 {/* Logo here */}

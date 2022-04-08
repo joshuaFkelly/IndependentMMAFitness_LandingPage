@@ -12,7 +12,7 @@ export const CTAButton = ({ btnName }) => {
         <div>
             {
                 !openForm ?
-                    <button className="bg-white text-black p text-sm rounded" type="button" onClick={toggleForm}>{btnName}</button>
+                    <button className="bg-white text-black text-sm rounded p-1" type="button" onClick={toggleForm}>{btnName}</button>
                     : <ContactForm handler={toggleForm} />
             }
         </div>
