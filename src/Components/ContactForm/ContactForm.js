@@ -4,7 +4,7 @@ import React from "react"
 export const ContactForm = ({ handler }) => {
 
     return (
-        <div className="contactForm h-screen w-screen bg-white text-black" >
+        <div className="h-screen w-screen text-black" >
             <p>Contact Form</p>
             <button type="button" onClick={handler}>Close Modal</button>
         </div>

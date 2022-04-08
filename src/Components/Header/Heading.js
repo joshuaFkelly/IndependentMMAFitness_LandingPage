@@ -2,7 +2,7 @@ import { Logo } from "./Logo";
 import { Title } from "./Title";
 export const Heading = () => {
     return (
-        <header className="flex text-white">
+        <header className="flex text-white py-5">
 
             <div className="flex-none" >
                 {/* Logo here */}
