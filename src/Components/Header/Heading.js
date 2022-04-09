@@ -8,7 +8,7 @@ export const Heading = () => {
 
     const scrollPosition = useScrollPosition()
 
-    const headerSticky = "flex flex-row text-start text-white sticky top-0 backdrop-blur-lg backdrop-brightness-50 p-1"
+    const headerSticky = "flex flex-row text-center justify-center text-white sticky top-0 backdrop-blur-lg backdrop-brightness-50 p-1"
 
     return (
         // When the top of the screen is no longer at the top add the blue class. 
@@ -23,7 +23,7 @@ export const Heading = () => {
 
                 scrollPosition === 0 ?
                     < Title name="Independent MMA & Fitness" /> :
-                    <CTAButton style={"bg-white text-black text-sm rounded p-2 m-auto"} btnName={"Make A Change"} />
+                    <CTAButton style={"bg-white text-black text-sm rounded px-5 py-2 m-auto bg-yellow-500"} btnName={"Sign Up"} />
 
             }
         </header >
