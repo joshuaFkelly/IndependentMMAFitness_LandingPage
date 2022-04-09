@@ -11,9 +11,9 @@ const App = () => {
         <div>
             <Heading />
             <HeroSection />
-            <MainContent />
-            <ContactForm />
-            <Footer />
+            {/* <MainContent /> */}
+            {/* <ContactForm /> */}
+            {/* <Footer /> */}
         </div>
     )
 };

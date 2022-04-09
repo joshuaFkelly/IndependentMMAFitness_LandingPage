@@ -8,13 +8,13 @@ module.exports = {
             backgroundImage: (theme) => ({
                 'ufc-gloves': "url('/src/Images/gloveTouch.jpg')",
                 'logo': "url('/src/Images/IndependentLogo.png')",
-                'mma-gloves': "url('/src/Images/mma-gloves.jpeg')",
+                'mobile-gloves': "url('/src/Images/mobile-gloves.jpeg')",
+                'desktop-gloves': "url('/src/Images/desktop-gloves.jpeg')",
                 'bjj-hands': "url('/src/Images/bjj-hands.jpeg')",
             }),
             backdropBlur: {
                 xs: '1.5px',
-            }
-
+            },
         },
     },
     plugins: [],
