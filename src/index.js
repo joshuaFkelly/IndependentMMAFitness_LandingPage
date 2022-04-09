@@ -8,7 +8,7 @@ import { Heading } from "./Components/Header/Heading";
 const App = () => {
 
     return (
-        <div className="w-screen h-screen">
+        <div>
             <Heading />
             <HeroSection />
             <MainContent />
