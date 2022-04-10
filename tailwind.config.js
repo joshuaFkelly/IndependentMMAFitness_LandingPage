@@ -15,6 +15,10 @@ module.exports = {
             backdropBlur: {
                 xs: '1.5px',
             },
+            screens: {
+                'tablet': '485px',
+                // => @media (min-width: 640px) { ... }
+            },
         },
     },
     plugins: [],

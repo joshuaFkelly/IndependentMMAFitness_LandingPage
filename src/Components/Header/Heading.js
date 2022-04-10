@@ -1,5 +1,4 @@
 import React, { useState } from "react"
-import { CTAButton } from "../CallToAction/Button";
 import { Logo } from "./Logo";
 import { Title } from "./Title";
 import useScrollPosition from "./useScrollPosition";
@@ -8,7 +7,7 @@ export const Heading = () => {
 
     const scrollPosition = useScrollPosition()
 
-    const headerSticky = "flex flex-row text-center justify-center text-white sticky top-0 backdrop-blur-lg backdrop-brightness-50 p-1"
+    const headerSticky = "flex flex-row text-center justify-center text-white sticky top-0 m-auto"
 
     return (
         // When the top of the screen is no longer at the top add the blue class. 
@@ -16,16 +15,14 @@ export const Heading = () => {
 
         <header className={headerSticky}>
 
-            {/* Logo here */}
-            < Logo />
-            {/* Company Name */}
-            {
+            <div>{/* Logo here */}
+                < Logo />
+            </div>
 
-                scrollPosition === 0 ?
-                    < Title name="Independent MMA & Fitness" /> :
-                    <CTAButton style={"bg-white text-black text-sm rounded px-5 py-2 m-auto bg-yellow-500"} btnName={"Sign Up"} />
+            <div className=" self-center ml-1">{/* Company Name */}
+                < Title name="INDEPENDENT" />
+            </div>
 
-            }
         </header >
     )
 }

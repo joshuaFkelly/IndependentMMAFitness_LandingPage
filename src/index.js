@@ -8,7 +8,7 @@ import { Heading } from "./Components/Header/Heading";
 const App = () => {
 
     return (
-        <div>
+        <div className="bg-black">
             <Heading />
             <HeroSection />
             {/* <MainContent /> */}
