@@ -7,7 +7,7 @@ export const Heading = () => {
 
     const scrollPosition = useScrollPosition()
 
-    const headerSticky = "flex flex-row text-center justify-center text-white sticky top-0 m-auto"
+    const headerSticky = "flex flex-row p-1 text-white justify-center sticky top-0 backdrop-blur-sm backdrop-brightness-50"
 
     return (
         // When the top of the screen is no longer at the top add the blue class. 
@@ -19,7 +19,7 @@ export const Heading = () => {
                 < Logo />
             </div>
 
-            <div className=" self-center ml-1">{/* Company Name */}
+            <div className=" my-auto ml-1 ">{/* Company Name */}
                 < Title name="INDEPENDENT" />
             </div>
 

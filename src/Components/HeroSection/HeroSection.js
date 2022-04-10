@@ -1,26 +1,28 @@
 import React from "react";
 import { CTAButton } from "../CallToAction/Button";
 export const HeroSection = () => {
-    const color = "text-red-600 font-bold"
+    const sport = "text-red-600 font-bold"
+    const quote = "text-red-600 font-bold font-2xl"
     return (
         // Image as background 
 
 
-        <section className="bg-mobile-gloves bg-contain h-screen bg-no-repeat tablet:bg-desktop-gloves tablet:bg-cover">
+        <section className="bg-mobile-gloves bg-cover bg-top h-screen w-screen bg-no-repeat flex flex-col p-1 tablet:bg-desktop-gloves xl:bg-cover">
 
-            <article className="text-black p-1 flex flex-col gap-5 justify-center container">
+            <article className="text-white mt-10">
 
-                <div className="text-right border-r-4 border-red-600 flex-end">
-                    <h1 className="text-xl my-2 mr-1">MIXED <span className={color}>MARTIAL ARTS</span></h1>
-                    <h1 className="text-xl my-2 mr-1">BRAZILLIAN <span className={color}>JIU-JITSU</span></h1>
-                    <h1 className="text-xl my-2 mr-1">CARDIO <span className={color}>KICKBOXING</span></h1>
-                    <h1 className="text-xl my-2 mr-1">MUAY <span className={color}>THAI</span></h1>
+                <div className="text-right border-r-4 border-red-600">
+                    <h1 className="text-2xl pb-16 font-light mr-1">MIXED <span className={sport}>MARTIAL ARTS</span></h1>
+                    <h1 className="text-2xl pb-16 font-light mr-1">BRAZILLIAN <span className={sport}>JIU-JITSU</span></h1>
+                    <h1 className="text-2xl pb-16 font-light mr-1">CARDIO <span className={sport}>KICKBOXING</span></h1>
+                    <h1 className="text-2xl font-light mr-1">MUAY <span className={sport}>THAI</span></h1>
                 </div>
+            </article>
 
-                <div className="text-black">
-                    <p className="text-lg italic mb-2">"If you want to go fast,<span className={color}> go alone.</span> If you want to go far, <span className={color}>go together.</span>"</p>
-                    <CTAButton style={"bg-white text-black text-sm rounded py-2 px-4 bg-red-600"} btnName="Start Your Journey" />
-                </div>
+            <article className="text-white m-auto text-center">
+
+                <p className="text-lg italic mb-2">"If you want to go <span className="text-xl text-red-600">fast,</span> go alone. If you want to go <span className="text-xl text-red-600">far,</span> go together."</p>
+                <CTAButton style={"text-white font-semibold text-lg rounded p-2 bg-red-700"} btnName="Start Your Journey" />
 
             </article >
 
