@@ -6,7 +6,7 @@ export const HeroSection = () => {
         // Image as background 
 
 
-        <section className="bg-mobile-gloves bg-cover bg-top bg-no-repeat flex flex-col gap-y-10 py-2 tablet:bg-desktop-gloves">
+        <section className="bg-mobile-gloves bg-cover bg-top bg-no-repeat flex flex-col gap-y-8 py-2 tablet:bg-desktop-gloves lg:bg-contain">
 
 
             <article className="text-white text-right border-r-4 m-1 border-red-600">
@@ -19,8 +19,8 @@ export const HeroSection = () => {
 
             <article className="text-white text-center">
 
-                <p className="text-xl italic mb-2">"If you want to go <span className="text-2xl text-red-600">fast,</span> go alone. If you want to go <span className="text-xl text-red-600">far,</span> go together."</p>
-                <CTAButton style={"text-white font-semibold text-lg rounded p-2 bg-red-700"} btnName="Start Your Journey" />
+                <p className="text-xl italic mb-2">"If you want to go <span className="text-2xl text-red-600">fast,</span> go alone. If you want to go <span className="text-2xl text-red-600">far,</span> go together."</p>
+                <CTAButton style={"text-white font-semibold text-xl rounded p-2 bg-red-700"} btnName="Start Your Journey" />
 
             </article >
         </section >

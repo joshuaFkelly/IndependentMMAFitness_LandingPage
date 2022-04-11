@@ -7,7 +7,7 @@ export const Heading = () => {
 
     const scrollPosition = useScrollPosition()
 
-    const headerSticky = "flex flex-row text-white justify-center sticky top-0 backdrop-blur-sm backdrop-brightness-50"
+    const headerSticky = "flex flex-row text-white p-2 justify-center sticky top-0 backdrop-blur-sm backdrop-brightness-50"
 
     return (
         // When the top of the screen is no longer at the top add the blue class. 
