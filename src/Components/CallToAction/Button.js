@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { ContactForm } from "../ContactForm/ContactForm";
+import ContactForm from "../ContactForm/ContactForm";
 
 export const CTAButton = ({ btnName, style }) => {
 
