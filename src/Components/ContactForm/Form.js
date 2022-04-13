@@ -2,10 +2,10 @@ import NewnanLocation from "../../Images/map.png";
 
 export default function CTAForm() {
     return (
-        <section className="h-screen w-full sm:w-3/4 lg:w-1/2 m-auto text-center flex flex-col justify-center gap-y-5">
-            <h1 className="text-center font-light text-4xl text-white">GET IN TOUCH!</h1>
-
+        <section className="w-full sm:w-3/4 lg:w-1/2 m-auto text-center">
             <form className="flex flex-col gap-5 p-2 bg-black rounded-md border-white border-2">
+                <h1 className="text-center font-light text-4xl text-white">GET IN TOUCH!</h1>
+
                 {/* Uncomment the next line to show the success message */}
                 {/* <div class="success-message">Success! Thank you for registering</div> */}
                 <input
@@ -35,21 +35,27 @@ export default function CTAForm() {
                 />
                 {/* Uncomment the next line to show the error message */}
                 {/* <span id="email-error">Please enter an email address</span> */}
-                <div className="flex flex-col gap-y-2 sm:flex-row sm:justify-around">
+                <div>
                     <button className="rounded-md bg-red-600 text-white text-xl font-bold p-2 hover:bg-red-700 active:bg-red-800 focus:outline-none focus:ring focus:ring-red-300" type="submit">
-                        Make A Change
+                        Start Your Journey
                     </button>
                 </div>
 
             </form>
 
-            <article>
-                <div className="m-auto p-1 text-white">
+            <article className="text-white flex flex-col gap-5 mt-5">
+                <div>
+                    <h1>Mon-Fri: 4PM-8:30PM</h1>
+                    <h1>Saturday: 10AM-12PM, 5PM-8PM</h1>
+                    <h1>Sunday: Closed</h1>
+                </div>
+
+                <div>
                     <h1>40 Greenway Court, Newnan, GA 30265</h1>
                     <h1>+16785905959</h1>
-                    <h1>https://www.independentmmafitness.com/</h1>
-                    <img className="w-max-3/4 h-max-3/4 m-auto bg-white p-1 rounded-md" src={NewnanLocation} alt="Google Image of gym location" />
                 </div>
+
+                <img className="w-max-3/4 h-max-3/4 m-auto bg-white p-1 rounded-md" src={NewnanLocation} alt="Google Image of gym location" />
             </article>
         </section>
     );

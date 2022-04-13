@@ -4,7 +4,7 @@ export const HeroSection = () => {
     const sport = "text-red-600 font-bold"
     return (
 
-        <section className="bg-mobile-gloves bg-cover bg-top bg-no-repeat flex flex-col py-2 tablet:bg-desktop-gloves lg:bg-contain">
+        <section className="bg-mobile-gloves bg-cover bg-top bg-no-repeat flex flex-col tablet:bg-desktop-gloves lg:bg-contain">
 
 
             <article className="text-white text-right border-r-4 border-red-600 lg:w-3/4">

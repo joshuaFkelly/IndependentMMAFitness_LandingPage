@@ -3,9 +3,8 @@ import { CTAButton } from "../CallToAction/Button";
 
 export const Footer = () => {
     return (
-        <div className="bg-black text-white">
-            <h1>Footer</h1>
-            <CTAButton btnName={"Start your Journey"} />
-        </div>
+        <footer className="bg-black text-gray-400 text-sm text-center p-1">
+            <h1>Independent MMA & Fitness© 2014</h1>
+        </footer>
     )
 }
