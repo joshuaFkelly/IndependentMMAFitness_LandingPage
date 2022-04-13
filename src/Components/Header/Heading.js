@@ -12,8 +12,6 @@ export const Heading = () => {
     const headerSticky = "flex flex-row text-white p-2 justify-between sticky top-0 backdrop-blur-sm backdrop-brightness-50"
 
     return (
-        // When the top of the screen is no longer at the top add the blue class. 
-        // When no longer at top of screen change title for CTAButton. Use transitions 
 
         <header className={headerSticky}>
             <div>{/* Logo here */}

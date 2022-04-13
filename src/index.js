@@ -9,14 +9,14 @@ import { Footer } from "./Components/Footer/Footer";
 const App = () => {
 
     return (
-        <div className="bg-black">
+        <div>
             <Heading />
             <HeroSection />
             <Video />
             <Reviews />
             < CTAForm />
             <Footer />
-        </div>
+        </div >
     )
 };
 
