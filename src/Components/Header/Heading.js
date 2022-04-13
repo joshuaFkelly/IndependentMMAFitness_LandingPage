@@ -25,7 +25,7 @@ export const Heading = () => {
             </div>
 
 
-            <div className="flex flex-row justify-end w-fit ml-auto gap-1">
+            <div className="flex flex-row justify-end w-fit ml-auto gap-x-2">
                 <BsInstagram></BsInstagram>
                 <BsFacebook></BsFacebook>
                 <AiOutlinePhone></AiOutlinePhone>

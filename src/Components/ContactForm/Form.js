@@ -3,7 +3,7 @@ import NewnanLocation from "../../Images/map.png";
 export default function CTAForm() {
     return (
         <section className="w-full sm:w-3/4 lg:w-1/2 m-auto text-center">
-            <form className="flex flex-col gap-5 p-2 bg-black rounded-md border-white border-2">
+            <form className="flex flex-col gap-5 p-2 bg-black rounded-md border-white border-2 ">
                 <h1 className="text-center font-light text-4xl text-white">GET IN TOUCH!</h1>
 
                 {/* Uncomment the next line to show the success message */}
