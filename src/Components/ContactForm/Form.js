@@ -1,8 +1,11 @@
-export default function ContactForm({ handler, style }) {
+import NewnanLocation from "../../Images/map.png";
+
+export default function CTAForm() {
     return (
-        <section className={style}>
-            <form className="register-form flex flex-col gap-5 p-2 bg-black rounded-md border-white border-2 m-auto ">
-                <h1 className="text-center text-4xl text-white">Get in touch!</h1>
+        <section className="h-screen w-full sm:w-3/4 lg:w-1/2 m-auto text-center flex flex-col justify-center gap-y-5">
+            <h1 className="text-center font-light text-4xl text-white">GET IN TOUCH!</h1>
+
+            <form className="flex flex-col gap-5 p-2 bg-black rounded-md border-white border-2">
                 {/* Uncomment the next line to show the success message */}
                 {/* <div class="success-message">Success! Thank you for registering</div> */}
                 <input
@@ -36,10 +39,18 @@ export default function ContactForm({ handler, style }) {
                     <button className="rounded-md bg-red-600 text-white text-xl font-bold p-2 hover:bg-red-700 active:bg-red-800 focus:outline-none focus:ring focus:ring-red-300" type="submit">
                         Make A Change
                     </button>
-                    <button className="rounded-md bg-gray-600 text-white text-xl font-bold p-2 hover:bg-gray-700 active:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-300 brightness-75" type="button" onClick={handler}>Wait Another Day</button>
                 </div>
 
             </form>
+
+            <article>
+                <div className="m-auto p-1 text-white">
+                    <h1>40 Greenway Court, Newnan, GA 30265</h1>
+                    <h1>+16785905959</h1>
+                    <h1>https://www.independentmmafitness.com/</h1>
+                    <img className="w-max-3/4 h-max-3/4 m-auto bg-white p-1 rounded-md" src={NewnanLocation} alt="Google Image of gym location" />
+                </div>
+            </article>
         </section>
     );
 }

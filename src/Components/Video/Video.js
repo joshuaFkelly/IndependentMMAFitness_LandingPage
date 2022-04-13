@@ -4,12 +4,12 @@ export const Video = () => {
     return (
         // Image as background 
 
-        <section className="h-screen w-full bg-black text-white text-center flex flex-col justify-center">
+        <section className="h-screen w-full bg-black text-white text-center flex flex-col justify-evenly">
 
             <article>
 
                 <h1 className="text-4xl font-light">PHILOSOPHY</h1>
-                <ul className="flex flex-col gap-5 text-xl text-white mt-10">
+                <ul className="flex flex-col gap-5 text-xl text-white mt-5">
                     <li>Virtue #1</li>
                     <li>Virtue #2</li>
                     <li>Virtue #3</li>
