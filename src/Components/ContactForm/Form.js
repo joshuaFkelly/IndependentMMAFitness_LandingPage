@@ -33,6 +33,13 @@ export default function CTAForm() {
                     placeholder="Email"
                     name="email"
                 />
+                <input
+                    id="phone"
+                    className="form-field rounded-md p-1"
+                    type="number"
+                    placeholder="Phone Number"
+                    name="phone"
+                />
                 {/* Uncomment the next line to show the error message */}
                 {/* <span id="email-error">Please enter an email address</span> */}
                 <div>
@@ -55,7 +62,7 @@ export default function CTAForm() {
                     <h1>+16785905959</h1>
                 </div>
 
-                <img className="w-max-3/4 h-max-3/4 m-auto bg-white p-1 rounded-md" src={NewnanLocation} alt="Google Image of gym location" />
+                <img className="w-max-3/4 h-max-3/4 m-auto bg-white p-1 rounded-md lg:w-3/4" src={NewnanLocation} alt="Google Image of gym location" />
             </article>
         </section>
     );

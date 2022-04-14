@@ -7,7 +7,7 @@ export const HeroSection = () => {
         <section className="bg-mobile-gloves bg-cover bg-top bg-no-repeat flex flex-col tablet:bg-desktop-gloves lg:bg-contain">
 
 
-            <article className="text-white text-right border-r-4 border-red-600 lg:w-3/4">
+            <article className="text-white text-right border-r-4 border-red-600 lg:w-3/4 lg:m-auto">
                 <h1 className="text-4xl py-2 font-light mr-1">MIXED<br /><span className={sport}>MARTIAL ARTS</span></h1>
                 <h1 className="text-4xl py-2 font-light mr-1">BRAZILLIAN<br /><span className={sport}>JIU-JITSU</span></h1>
                 <h1 className="text-4xl py-2 font-light mr-1">CARDIO<br /><span className={sport}>KICKBOXING</span></h1>
